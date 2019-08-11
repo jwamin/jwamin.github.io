@@ -1,0 +1,27 @@
+{
+  "name": "jwamin.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwamin/jwamin.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwamin/jwamin.github.io/issues"
+  },
+  "homepage": "https://github.com/jwamin/jwamin.github.io#readme",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "sass": "^1.22.9",
+    "scss": "^0.2.4"
+  }
+}
