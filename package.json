@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel -p 8080 watch ./project/html/index.html",
+    "build": "parcel build ./project/html/index.html",
+    "dist": "parcel build ./project/html/index.html --out-dir ./"
   },
   "repository": {
     "type": "git",
