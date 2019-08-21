@@ -1,26 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Beth+Ellen|Libre+Franklin&display=swap');
 
-$background: rgb(108, 181, 243);
+//Colors and gradients
+$background: rgb(122,161,189);
+$background-stop:rgba(0,189,255,1);
+$background-gradient: linear-gradient(180deg, $background 0%, $background-stop  100%);
+$shade:rgba(0, 0, 0, 0.2);
+$shadow: 0px 6px 20px 3px $shade;
 
+//Font families
+$heading:'Libre Franklin', sans-serif;
+$cursive:'Beth Ellen', cursive;
 html{
   height:100%;
   font-size: 16px;
-margin:0;
-padding:0;
+  margin:0;
+  padding:0;
 }
 
 h1{
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 5em;
+  font-family: $cursive;
+  text-shadow: 1px 1px 10px $shade;
+  font-size: 5vw;
+  margin:1vh;
 }
 
 h2{
-  font-family: 'Beth Ellen', cursive;
-  font-size: 1.5em;
+  font-family: $heading;
+  font-size: 3vw;
 }
 
 body{
-  background-color: $background;
+  background:$background;
+  background: $background-gradient;
+background-attachment: fixed;
   height:100%;
 }
 
@@ -39,11 +51,12 @@ display: flex;
 
 .avatar{
   border:0.5em solid grey;
-  max-height:50vh;
-  max-width:50vh;
+  max-height:40vh;
+  max-width:40vh;
+  margin: 5vw;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0px 6px 20px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: $shadow;
   img{
     z-index: 0;
     height:100%;
@@ -52,26 +65,30 @@ display: flex;
 }
 
 ul{
+font-family: $heading;
 list-style-type: none;
 padding:0;
 margin:0;
+.very-large{
+font-size: 10vh;
+}
 }
 
 a{
   &.social-icon{
-    height:64px;
+    height:(64px / 2);
 
-  margin:1em;
+    margin:1em;
 
     &.github{
-      width:64px;
+      width:(64px / 2);
       background: url(../assets/img/GitHub-Mark-64px.png);
       background-blend-mode: multiply;
       background-size: contain;
     }
     &.linkedin{
-      width:76px;
-      height:64px;
+      width:(76px / 2);
+      height:(64px / 2);
       background:url(../assets/img/LI-In-Bug.png) ;
       background-repeat: no-repeat;
       filter: brightness(0);
