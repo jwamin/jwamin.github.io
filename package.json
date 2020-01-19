@@ -21,10 +21,10 @@
   },
   "homepage": "https://github.com/jwamin/jwamin.github.io#readme",
   "dependencies": {
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.4"
   },
   "devDependencies": {
-    "sass": "^1.22.9",
+    "sass": "^1.25.0",
     "scss": "^0.2.4"
   }
 }
