@@ -24,7 +24,7 @@
     "parcel": "^1.12.4"
   },
   "devDependencies": {
-    "sass": "^1.25.0",
+    "sass": "^1.26.9",
     "scss": "^0.2.4"
   }
 }
