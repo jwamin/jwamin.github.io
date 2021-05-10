@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>jwamin.github.io</title>
+  <meta name="description" content="Joss Manger">
+  <meta name="author" content="Joss Manger">
+
+</head>
+
+<body>
+  <section class="main">
+    <div class="avatar">
+      <img src="f80a2a6af364029219971aa8df74b705" alt="Joss Manger Image">
+    </div>
+    <h1>Joss Manger</h1>
+    <h2> platforms | &lt;web/&gt;</h2>
+  </section>
+  <section>
+    <ul>
+      <li class="very-large">📱⌚️🖥</li>
+      <li>Swift</li>
+      <li>Xcode</li>
+      <li>JavaScript</li>
+    </ul>
+    <div class="social-container">
+      <a target="_blank" href="0e52727706600867fd956d015730d490" class="social-icon github"></a>
+      <a target="_blank" href="bccbbe6f413c6a7bf3f75330c80d92d1" class="social-icon linkedin"></a>
+    </div>
+  </section>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="a6966a74f27189a7c46aed207abff58e"></script>
+  <script data-parcel-key="784547cde62f8a233598f47eb49d98ee">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-147734493-1');
+  </script>
+
+  <script src="3df77e45fcca016404702a23ad800f49"></script>
+</body>
+</html>

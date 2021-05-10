@@ -2,12 +2,12 @@
   "name": "jwamin.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "parcel -p 8080 watch ./project/html/index.html",
+    "watch": "parcel watch -p 8080 ./project/html/index.html",
     "build": "parcel build ./project/html/index.html",
-    "dist": "./cleanup.sh && parcel build ./project/html/index.html --out-dir ./"
+    "dist": "./cleanup.sh && parcel build ./project/html/index.html --dist-dir ./"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,10 @@
     "url": "https://github.com/jwamin/jwamin.github.io/issues"
   },
   "homepage": "https://github.com/jwamin/jwamin.github.io#readme",
-  "dependencies": {
-    "parcel": "^1.12.4"
-  },
   "devDependencies": {
-    "sass": "^1.25.0",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.32.12",
     "scss": "^0.2.4"
   }
 }

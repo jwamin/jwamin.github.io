@@ -1,0 +1,1 @@
+{"mappings":"AACAA,QAAQC,IAAI","sources":["./project/js/index.js"],"sourcesContent":["import '../scss/custom.scss'\nconsole.log(\"hello world\")\n"],"names":["console","log"],"version":3,"file":"index.HASH_REF_4a8b6095f2f9adcd4cd0dc1aa0994534.js.map"}
